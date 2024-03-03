@@ -1,0 +1,76 @@
+body {
+    background-color: #212121;
+}
+
+.List {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+.List h1 {
+    color: hsl(349, 100%, 47%);
+    font-size: 4em;
+    text-shadow: 0 0 20px hsl(349, 100%, 47%);
+    animation: animate 4s ease-in-out infinite;
+}
+
+@keyframes animate {
+    50%{
+        text-shadow: 0 0 10px hsl(349, 100%, 47%);
+    }
+}
+
+.List ul {
+    list-style-type: none;
+    font-size: 2rem;
+    color: hsl(38, 100%, 51%);
+    text-shadow: 0 0 7px hsl(38, 100%, 51%);
+}
+
+.List li:hover {
+    color: hsl(38, 100%, 56%);
+    text-shadow: 0 0 7px hsl(38, 100%, 56%);
+    cursor: pointer;
+    text-decoration: line-through;
+    text-decoration-thickness: 3px;
+    
+}
+
+.add-task {
+    display: flex;
+    justify-content: center;
+}
+
+.add-task div {
+    background-color: #323232;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.List input {
+    width: 300px;
+    height: 2.5rem;
+    font-size: 1.25rem;
+    border: none;
+    padding: 10px;
+    margin-left: 5px;
+    background-color: #32323200;
+    color: #14FFEC;
+    text-shadow: 0 0 7px #14FFEC;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.List button {
+    height: 2.5rem;
+    font-size: 1.5rem;
+    background-color: #32323200;
+    border: none;
+    color: #14FFEC;
+    text-shadow: 0 0 7px #14FFEC;
+    cursor: pointer;
+    padding-right: 15px;
+    outline: none;
+}
