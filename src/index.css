@@ -85,6 +85,6 @@ body {
 
 @keyframes animate-blue {
     50%{
-        text-shadow: 0 0 4px hsl(38, 100%, 51%)
+        text-shadow: 0 0 4px hsl(175, 100%, 54%);
     }
 }
