@@ -64,7 +64,7 @@ body {
     margin-left: 5px;
     background-color: #32323200;
     color: hsl(175, 100%, 54%);
-    text-shadow: 0 0 4px hsl(175, 100%, 54%);
+    /* text-shadow: 0 0 4px hsl(175, 100%, 54%); */
     outline: none;
     font-family: Arial, Helvetica, sans-serif;
     animation: animate-blue 3s linear infinite;
@@ -76,7 +76,7 @@ body {
     background-color: #32323200;
     border: none;
     color: hsl(175, 100%, 54%);
-    text-shadow: 0 0 4px hsl(175, 100%, 54%);
+    /* text-shadow: 0 0 4px hsl(175, 100%, 54%); */
     cursor: pointer;
     padding-right: 15px;
     outline: none;
